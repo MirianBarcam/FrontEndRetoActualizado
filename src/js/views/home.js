@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Item from "../component/item";
-import "../../styles/home.scss";
+import "../../styles/home.css";
 
 const Home = () => {
   const [itemList, setItemList] = useState([]);
