@@ -7,8 +7,7 @@
     align-items: center;
     vertical-align: middle;
 }
-.item:hover,
-.item-selected{
+.item:hover{
     background-color: #324bff;
     color: white;
 }

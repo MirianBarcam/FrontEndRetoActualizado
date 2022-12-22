@@ -60,19 +60,23 @@
   transition: 0.5s;
   width: 50px;
 }
-.modal-content{
-    border-radius: 20px;
-}
-.content-modal{
- text-align: start;
+
+.modal-content {
+  border-radius: 20px;
+  text-align: start;
 }
 
-.footer-modal{
-    display: flex;
-    justify-content: end;
-    margin: 10px;
-    gap: 10px;
+.content-modal {
+  text-align: start;
 }
-.form-control{
-    background-color: #f7f7f7;
+
+.form-control {
+  background-color: #f7f7f7;
+}
+
+.footer-modal {
+  display: flex;
+  justify-content: end;
+  margin:20px ;
+  gap: 10px;
 }
