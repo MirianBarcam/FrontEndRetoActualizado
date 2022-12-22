@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Item from "../component/item";
-import "../../styles/home.css";
+import "../../styles/home.scss";
 
 const Home = () => {
   const [itemList, setItemList] = useState([]);
@@ -97,6 +97,7 @@ const Home = () => {
                     value={item}
                     onChange={handleChangeAddItem}
                     placeholder="Type the text here..."
+                    maxLength={60}
                   ></input>
                 </div>
               </form>
