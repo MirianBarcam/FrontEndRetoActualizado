@@ -1,0 +1,14 @@
+.item{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    font-weight: 50;
+    height: 25px;
+    align-items: center;
+    vertical-align: middle;
+}
+.item:hover,
+.item-selected{
+    background-color: #324bff;
+    color: white;
+}

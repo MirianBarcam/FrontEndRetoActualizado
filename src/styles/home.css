@@ -1,0 +1,78 @@
+.main-container {
+  width: 35rem;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  padding: 30px;
+  font-weight: 50;
+}
+
+.item-selected {
+  background-color: #324bff;
+  color: white;
+}
+
+.item-container {
+  border: 1px solid rgb(225, 221, 221);
+  min-height: 3rem;
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.description-app {
+  font-size: small;
+}
+
+.btn-todo-list {
+  border-radius: 20px;
+  font-size: small;
+  border: 1px solid #324bff;
+  background-color: white;
+  height: 30px;
+  color: #324bff;
+  width: 80px;
+  font-weight: 50;
+}
+
+.btn-todo-list:hover {
+  transition: 0.5s;
+  width: 90px;
+}
+
+.btn-add {
+  background-color: #324bff;
+  color: white;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-return {
+  margin-right: 10px;
+  width: 40px;
+}
+
+.btn-return:hover {
+  transition: 0.5s;
+  width: 50px;
+}
+.modal-content{
+    border-radius: 20px;
+}
+.content-modal{
+ text-align: start;
+}
+
+.footer-modal{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    gap: 10px;
+}
+.form-control{
+    background-color: #f7f7f7;
+}
