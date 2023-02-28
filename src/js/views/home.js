@@ -7,6 +7,13 @@ const Home = () => {
   const [item, setItem] = useState("");
   const [itemSelected, setItemSelected] = useState();
   const [lastState,setLastState] = useState();
+  const [key,setKey]=useState(0);
+
+  const generateKey = ()=>{
+    const currentKey = key + 1;
+    setKey(currentKey);
+    return key;
+  }
 
   const handleItem = itemList.map((item) => {
     return (
@@ -26,7 +33,7 @@ const Home = () => {
 
   const handleAddItem = () => {
     if (item) {
-      setItemList([...itemList, { id: itemList.length, description: item }]);
+      setItemList([...itemList, { id: generateKey(), description: item }]);
       setItem("");
       setLastState(itemList)
     } else {
